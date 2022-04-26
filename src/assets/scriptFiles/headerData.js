@@ -1,2 +1,2 @@
 
-export const navBarData = ["Home","Pages","Blog","Shop","Elements"]; 
+export const navBarData = ["Home","Pages","Portfolio","Blog","Shop","Elements"]; 
