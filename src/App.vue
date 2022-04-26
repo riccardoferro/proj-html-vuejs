@@ -1,6 +1,5 @@
 <template>
     <div id="app">
-
       <!-- Call Components -->
         <Header/>
         <Jumbotron/>
