@@ -1,7 +1,7 @@
 <template>
-    <call-in-action>
+    <div class="callinAction">
         <h1>CallInAction</h1>
-    </call-in-action>
+    </div>
 </template>
 
 <script>

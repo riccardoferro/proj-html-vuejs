@@ -1,7 +1,7 @@
 <template>
-    <jumbotron>
+    <div class="jumbotron">
         <h1>Jumbotron</h1>
-    </jumbotron>
+    </div>
 </template>
 
 <script>
