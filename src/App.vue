@@ -1,28 +1,43 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+    <div id="app">
+
+      <!-- Call Components -->
+        <Header/>
+        <Jumbotron/>
+        <Main/>
+        <CallInAction/>
+        <Footer/>
+        
+    </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+// import components
+import Header from "./components/Header.vue"
+import Jumbotron from './components/Jumbotron.vue'
+import Main from "./components/Main.vue"
+import CallInAction from "./components/CallInAction.vue"
+import Footer from "./components/Footer.vue"
 
 export default {
   name: 'App',
+
+  // Set MacroStructure of the WebSite
   components: {
-    HelloWorld
+    Header,
+    Jumbotron,
+    Main,
+    CallInAction,
+    Footer,
   }
 }
 </script>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
+// import general Settings
+@import "./src/assets/generalStyle.scss";
+
+
 </style>
