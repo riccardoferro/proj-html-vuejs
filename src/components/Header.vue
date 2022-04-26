@@ -9,9 +9,14 @@
 </template>
 
 <script>
+
 export default {
-  name: "HeaderComponent"
+    name: "HeaderComponent",
+    props: {
+      data: Array
+    }
 }
+
 </script>
 
 <style lang="scss" scoped>
@@ -22,7 +27,5 @@ export default {
                 max-width: 75px;
             }
       }
-
-     
     }
 </style>

@@ -1,7 +1,7 @@
 <template>
     <div id="app">
       <!-- Call Components -->
-        <Header/>
+        <Header :data="dataHeader"/>
         <Jumbotron/>
         <Main/>
         <CallInAction/>
@@ -11,6 +11,10 @@
 </template>
 
 <script>
+
+// import data nav bar
+
+import {navBarData} from "@/assets/scriptFiles/headerData"
 
 // import components
 import Header from "./components/Header.vue"
@@ -22,6 +26,13 @@ import Footer from "./components/Footer.vue"
 export default {
   name: 'App',
 
+  data(){
+      return {
+          // data of the nav bar
+          dataHeader: navBarData,
+    }
+  },
+
   // Set MacroStructure of the WebSite
   components: {
     Header,
@@ -29,7 +40,12 @@ export default {
     Main,
     CallInAction,
     Footer,
+  },
+
+  mounted(){
+    // console.log(this.dataHeader);
   }
+
 }
 </script>
 
