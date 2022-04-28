@@ -7,10 +7,8 @@
                     <button v-for="(text,index) in data" :key="index" class="btn">
                         {{text}} 
                     </button>
-                <img class="ps-2" src="../../src/assets/svg/svg-1.svg" alt="image logo">
-
+                    <img class="ps-2" src="../../src/assets/svg/svg-1.svg" alt="image logo">
                 </div>
-
             </div>
         </div>
     </header>
