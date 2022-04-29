@@ -36,6 +36,10 @@
   padding: 5px 10px;
   font-size: 11px; 
   border: 1px solid hsl(184deg 22% 59%);
+  &:hover {
+    background-color: hsl(184deg 22% 59%);
+    color:white;
+} 
 }
 
 .card-rf {
