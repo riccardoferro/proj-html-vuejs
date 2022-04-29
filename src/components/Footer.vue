@@ -2,14 +2,17 @@
     <footer>
       <div class="container-fluid position-relative">
           <div class="row flex-column justify-content-center align-items-center back-img pt-5 pb-3">
+              <!-- logo -->
               <div class="col-3 text-center pt-5 pb-2">
                   <h5>Bryson</h5>
               </div>
+              <!-- text -->
               <div class="col-4 text-center">
                   <p class="fs-10-rf color-sc-txt-rf"> 
                           Sometimes doing something seemingly demanding turns out to be fun. Here's the proof - Bryson, your brand new portfolio.
                   </p>
               </div>
+              <!-- icons -->
               <div class="col-3 text-center pb-5 ">
                   <i class="fa-brands fa-instagram-square rounded-circle back-color-inst"></i>
                   <i class="fa-brands fa-facebook-f rounded-circle back-color-face"></i>
