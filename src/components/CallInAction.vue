@@ -39,6 +39,7 @@ export default {
 
 <style lang="scss" scoped>
 
+@import "./src/assets/toolsStyle.scss";
 
         .btn-rf {
             background-color: white;
@@ -51,23 +52,6 @@ export default {
         .border-input {
             border: none;
             border-bottom: 2px solid grey;
-        }
-
-
-        .color-sc-txt-rf {
-            color: hsl(0deg 0% 65%);
-        }
-        .fs-10-rf {
-            font-size: 10px;
-        }
-        .fs-11-rf {
-            font-size: 11px;
-        }
-        .fs-12-rf {
-            font-size: 12px;
-        }
-        .fs-13-rf {
-            font-size: 13px;
         }
 
 </style>
