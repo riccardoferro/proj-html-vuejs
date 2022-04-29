@@ -4,40 +4,40 @@
             <!-- first part of the main -->
             <div class="row w-75 m-auto pt-5 pb-5 justify-content-between">
                 <div class="col-4 pe-4">
-                    <h2> What we do?</h2>
-                    <p class="fs-13-rf color-sc-txt-rf pt-2 pb-4">Lorem ipsum dolor sit amet aenean consectetuer socils adipiscing elit. Aenean commodo ligula eget dolor pretium quis sem.</p>
-                    <button class="btn-rf rounded-pill"> Read more</button>
+                    <h4> What we do?</h4>
+                    <p class="fs-10-rf color-sc-txt-rf pt-2 pb-4">Lorem ipsum dolor sit amet aenean consectetuer socils adipiscing elit. Aenean commodo ligula eget dolor pretium quis sem.</p>
+                    <button class="btn-rf rounded-pill pad-button"> Read more</button>
                 </div>
                 <div class="col-8">
                     <div class="row pb-4">
                         <div class="col-4 d-flex align-items-center me-5">
                             <img src="../../src/assets/img/h2-icon-01.png" alt="image icon" class="w-50 me-4">
-                            <div>
-                                <h6>Beatifull</h6>
-                                <h6>illustrations</h6>
+                            <div class="fs-11-rf fw-bold">
+                                <div>Beatifull</div>
+                                <div>illustrations</div>
                             </div>
                         </div>
                         <div class="col-4 d-flex align-items-center ms-5">
                             <img src="../../src/assets/img/h2-icon-02.png" alt="image icon" class="w-50 me-4">
-                            <div>
-                                <h6>Brand</h6>
-                                <h6>Strategies</h6>
+                            <div class="fs-11-rf fw-bold">
+                                <div>Brand</div>
+                                <div>Strategies</div>
                             </div>
                         </div>
                    </div>
                     <div class="row pt-4">
                         <div class="col-4 d-flex align-items-center me-5">
                             <img src="../../src/assets/img/h2-icon-03.png" alt="image icon" class="w-50 me-4">
-                            <div>
-                                <h6>Qualified</h6>
-                                <h6>support</h6>
+                            <div class="fs-11-rf fw-bold">
+                                <div>Qualified</div>
+                                <div>support</div>
                             </div>
                         </div>
                         <div class="col-4 d-flex align-items-center ms-5">
                             <img src="../../src/assets/img/h2-icon-04.png" alt="image icon" class="w-50 me-4">
-                            <div>
-                                <h6>Books &</h6>
-                                <h6>magazines</h6>
+                            <div class="fs-11-rf fw-bold">
+                                <div>Books &</div>
+                                <div>magazines</div>
                             </div>
                         </div>
                    </div>
@@ -113,20 +113,14 @@ export default {
 
 @import "./src/assets/toolsStyle.scss";
 
-
-        .btn-rf {
-            background-color: white;
-            padding: 5px 10px;
-            font-size: 11px; 
-            border: 1px solid hsl(184deg 22% 59%);
+        .pad-button {
+                font-size: 8px;
+                padding: 5px 25px;
         }
+
 
         h6 {
             margin-bottom: 0;
-        }
-
-        .opacity-rf {
-            background-color: rgba(255, 255, 255, 0.1);
         }
 
         .back-img-c{
@@ -166,17 +160,6 @@ export default {
         .back-img-3-rf {
             background-image: url('../../src/assets/img/h2-background-img-03.png');
             background-size: cover;
-        }
-
-
-        .card-rf {
-            border-radius: 20px;
-            padding: 10px 40px;
-        }
-
-
-        .back-color-img-rf {
-            background-color: hsl(166deg 35% 93%);
         }
 
         .borders-colors-button2-rf {
