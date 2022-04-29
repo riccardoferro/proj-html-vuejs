@@ -1,5 +1,5 @@
 <template>
-    <div class="jumbotron container-fluid">
+    <div class="jumbotron container-fluid position-relative ">
         <div class="container w-75 m-auto pt-5">
 
             <!-- First part of the jumbotron whre is the Title and Paragraph -->
@@ -41,6 +41,11 @@
             </div>
 
         </div>
+
+    <a href="#" class="arrow-up-rf pos-arrow-2-rf"> </a>
+    <a href="#" class="arrow-up-rf pos-arrow-1-rf"> </a>
+
+
     </div>
 </template>
 
@@ -85,10 +90,25 @@ export default {
 
 // UTILITIES
 
-// @import "./src/assets/toolsStyle.scss";
+@import "./src/assets/toolsStyle.scss";
 
+        .pos-arrow-rf {
+            position: absolute;
+            top: 250px;
+            right: 10px;
+        }
 
+        .pos-arrow-2-rf {
+            position: absolute;
+            bottom: 200px;
+            right: 10px;
+        }
 
+        .pos-arrow-1-rf {
+            position: absolute;
+            top: 700px;
+            right: 10px;
+        }
 
 
 </style>

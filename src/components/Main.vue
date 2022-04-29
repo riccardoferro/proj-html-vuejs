@@ -198,7 +198,7 @@ export default {
             top: 0;
         }
 
-    .pos-arrow-rf {
+        .pos-arrow-rf {
         position: absolute;
         top: 250px;
         right: 10px;
