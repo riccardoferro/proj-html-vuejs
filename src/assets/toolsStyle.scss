@@ -50,3 +50,12 @@
 .back-color-img-rf {
   background-color: hsl(166deg 35% 93%);
 }
+
+.arrow-up {
+  width: 0px; 
+  height: 0px; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid hsl(17deg 81% 82%);
+
+}
