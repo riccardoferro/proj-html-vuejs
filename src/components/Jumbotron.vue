@@ -22,7 +22,7 @@
                 <div class="col-6">
                     <img src="../../src/assets/img/port-img-07.jpg"  alt="port-img" class="img-fluid">
                 </div>
-                <div class="col-6">
+                <div class="col-6 folded-corner">
                     <img src="../../src/assets/img/port-img-08.jpg"  alt="port-img" class="img-fluid">
                 </div>
                 <div class="col-6">
@@ -110,5 +110,41 @@ export default {
             right: 10px;
         }
 
+
+// .dog-ear {
+//   width: 0;
+//   height: 0px;
+//   border-style: solid;
+//   border-width: 40px 0 0 40px;
+//   border-color: white white white #ccc;
+//   position: absolute;
+//   right: 0;
+//   top: 0;
+// }
+
+.folded-corner:hover {
+              position: relative;
+              width: 50%;
+              padding: 1em 1.5em;
+              margin: 0 auto;
+              color: #fff;
+              background: #47a79a;
+              overflow: hidden;
+            }
+
+.folded-corner:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-width: 65px 65px 65px 65px;
+    border-style: solid;
+    border-color: white hsl(19deg 90% 92%) hsl(19deg 90% 92%) white;
+    // -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+    // -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+    // box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+    display: block;
+    width: 0;
+ }
 
 </style>
