@@ -111,107 +111,79 @@ export default {
 
 <style lang="scss" scoped>
 
-.btn-rf {
-    background-color: white;
-    padding: 5px 10px;
-    font-size: 11px; 
-    border: 1px solid hsl(184deg 22% 59%);
-}
-
-h6 {
-    margin-bottom: 0;
-}
-
-.opacity-rf {
-    background-color: rgba(255, 255, 255, 0.1);
-}
-
-.back-img-c{
-    background-image: url('../../src/assets/img/h2-img-2.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
-}
-
-.back-img-l{
-    background-image: url('../../src/assets/img/h2-img-2.jpg');
-    background-attachment: fixed;
-    background-position: left;
-}
-.back-img-r{
-    background-image: url('../../src/assets/img/h2-img-2.jpg');
-    background-attachment: fixed;
-    background-position: center;
-}
-
-.back-img-c2{
-    background-image: url('../../src/assets/img/h2-img-2.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top;
-}
-
-.back-img-l2{
-    background-image: url('../../src/assets/img/h2-img-2.jpg');
-    background-position-y: center;
-}
-.back-img-r2{
-    background-image: url('../../src/assets/img/h2-img-2.jpg');
-    background-position-y: right;
-}
-
-.back-img-3-rf {
-    background-image: url('../../src/assets/img/h2-background-img-03.png');
-    background-size: cover;
-}
+@import "./src/assets/toolsStyle.scss";
 
 
-.card-rf {
-    border-radius: 20px;
-    padding: 10px 40px;
-}
+        .btn-rf {
+            background-color: white;
+            padding: 5px 10px;
+            font-size: 11px; 
+            border: 1px solid hsl(184deg 22% 59%);
+        }
+
+        h6 {
+            margin-bottom: 0;
+        }
+
+        .opacity-rf {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        .back-img-c{
+            background-image: url('../../src/assets/img/h2-img-2.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: bottom;
+        }
+
+        .back-img-l{
+            background-image: url('../../src/assets/img/h2-img-2.jpg');
+            background-attachment: fixed;
+            background-position: left;
+        }
+        .back-img-r{
+            background-image: url('../../src/assets/img/h2-img-2.jpg');
+            background-attachment: fixed;
+            background-position: center;
+        }
+
+        .back-img-c2{
+            background-image: url('../../src/assets/img/h2-img-2.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: top;
+        }
+
+        .back-img-l2{
+            background-image: url('../../src/assets/img/h2-img-2.jpg');
+            background-position-y: center;
+        }
+        .back-img-r2{
+            background-image: url('../../src/assets/img/h2-img-2.jpg');
+            background-position-y: right;
+        }
+
+        .back-img-3-rf {
+            background-image: url('../../src/assets/img/h2-background-img-03.png');
+            background-size: cover;
+        }
 
 
+        .card-rf {
+            border-radius: 20px;
+            padding: 10px 40px;
+        }
 
 
+        .back-color-img-rf {
+            background-color: hsl(166deg 35% 93%);
+        }
 
-// utilities
-.color-sc-txt-rf {
-    color: hsl(0deg 0% 65%);
-}
-
-.fs-10-rf {
-    font-size: 10px;
-}
-.fs-11-rf {
-    font-size: 11px;
-}
-.fs-12-rf {
-    font-size: 12px;
-}
-.fs-13-rf {
-    font-size: 13px;
-}
-.h-300px {
-    height: 300px;
-}
-
-.h-150px {
-    height: 150px;
-}
-.w-50px {
-    width: 50px;
-}
-
-
-.back-color-img-rf {
-    background-color: hsl(166deg 35% 93%);
-}
-
-.borders-colors-button2-rf {
-    border: 1px solid hsl(14deg 71% 71%);
-}
-.borders-colors-button1-rf {
-    border: 1px solid hsl(33deg 72% 78%);
-}
+        .borders-colors-button2-rf {
+            border: 1px solid hsl(14deg 71% 71%);
+        }
+        
+        .borders-colors-button1-rf {
+            border: 1px solid hsl(33deg 72% 78%);
+        }
 </style>

@@ -85,22 +85,10 @@ export default {
 
 // UTILITIES
 
-.color-sc-txt-rf {
-    color: hsl(0deg 0% 65%);
-}
+@import "./src/assets/toolsStyle.scss";
 
-.fs-10-rf {
-    font-size: 10px;
-}
-.fs-11-rf {
-    font-size: 11px;
-}
-.fs-12-rf {
-    font-size: 12px;
-}
-.fs-13-rf {
-    font-size: 13px;
-}
+
+
 
 
 </style>
