@@ -7,7 +7,9 @@
                     <button v-for="(text,index) in data" :key="index" class="btn">
                         {{text}} 
                     </button>
-                    <img class="ps-2" src="../../src/assets/svg/svg-1.svg" alt="image logo">
+                     <a href="#">  
+                         <img class="ps-2" src="../../src/assets/svg/svg-1.svg" alt="image logo">
+                     </a>
                 </div>
             </div>
         </div>
@@ -38,6 +40,10 @@ export default {
               margin: 0 15px;
               font-size: 12px;
               font-weight: 400;
+
+              &:hover {
+                  border-bottom: 2px solid hsl(16deg 64% 73%);
+              }
             }
          
       }

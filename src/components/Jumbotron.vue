@@ -5,10 +5,10 @@
             <!-- First part of the jumbotron whre is the Title and Paragraph -->
 
             <div class="row pt-5 pb-5 justify-content-between">
-                <div class="col-5">
-                    <h1> We are Bryson, New York-based art & design studio</h1>
+                <div class="col-6">
+                    <h2> We are Bryson, New York-based art & design studio</h2>
                 </div>
-                <div class="col-7 color-sc-txt-rf fs-13-rf">
+                <div class="col-6 color-sc-txt-rf fs-10-rf">
                     <p>
                         Here at Bryson it only takes a smidgen of imagination and we're already prepared ourselves for
                         future challenges. Take a peek and see if you recognize the trademark ingredients of our work.
