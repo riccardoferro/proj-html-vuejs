@@ -137,7 +137,7 @@ export default {
     position: absolute;
     top: 0;
     left: 0;
-    border-width: 50px 50px 50px 50px;
+    border-width: 60px 60px 60px 60px;
     border-style: solid;
     border-color: white hsl(19deg 90% 92%) hsl(19deg 90% 92%) white;
     // -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
