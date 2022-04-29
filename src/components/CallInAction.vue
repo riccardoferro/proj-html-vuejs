@@ -1,8 +1,8 @@
 <template>
     <div class="callinAction">
-        <div class="container w-75 m-auto mt-5 mb-5 fs-10-rf">
-            <div class="row w-75 m-auto pt-3 pb-3 justify-content-between">
-                <div class="col-5">
+        <div class="container-fluid m-auto mt-5 mb-5 fs-10-rf position-relative">
+            <div class="row w-75 m-auto pt-3 pb-3 justify-content-between ">
+                <div class="col-4">
                     <h2>
                         Get in touch and say hello
                     </h2>
@@ -26,7 +26,10 @@
                     </div>
                     <button class="btn-rf rounded-pill"> Submit <i class="fa-solid fa-caret-right align-middle"></i></button>
                 </div>
+
             </div>
+                <a href="#" class="arrow-up pos-arrow"> </a>
+
         </div>
     </div>
 </template>
@@ -54,4 +57,9 @@ export default {
             border-bottom: 2px solid grey;
         }
 
+        .pos-arrow {
+            position: absolute;
+            top: 20px;
+            right: 10px;
+        }
 </style>
