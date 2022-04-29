@@ -1,12 +1,12 @@
 <template>
     <main>
+        <!-- first part of the main -->
         <div class="container w-75 m-auto mt-5 mb-5">
-            <!-- first part of the main -->
             <div class="row w-75 m-auto pt-5 pb-5 justify-content-between">
                 <div class="col-4 pe-4">
                     <h4> What we do?</h4>
                     <p class="fs-10-rf color-sc-txt-rf pt-2 pb-4">Lorem ipsum dolor sit amet aenean consectetuer socils adipiscing elit. Aenean commodo ligula eget dolor pretium quis sem.</p>
-                    <button class="btn-rf rounded-pill pad-button"> Read more</button>
+                    <button class="btn-rf rounded-pill pad-button"> Read more <i class="fa-solid fa-caret-right align-middle"></i></button>
                 </div>
                 <div class="col-8">
                     <div class="row pb-4">
@@ -64,8 +64,11 @@
         <div class="container-fluid back-img-3-rf pb-5 pt-5">
             <div class="row w-75 justify-content-evenly m-auto pt-5 mb-5 pb-5">
                 <div class="col-3 pt-5 pb-5 text-center card opacity-rf card-rf borders-colors-button1-rf">
-                    <h6>Basic</h6>           
-                    <h3>99</h3>
+                    <h6>Basic</h6> 
+                    <div class="position-relative">
+                        <h3 class="d-inline-block">99</h3>
+                        <span class="dollar-pos">$</span>
+                    </div>
                     <p class="fs-10-rf lh-lg color-sc-txt-rf mb-4">
                         5 design concepts <br>
                         Full copyright ownership <br>
@@ -73,10 +76,13 @@
                         Top level creatives <br>
                         No money back 
                     </p>
-                    <button class="btn-rf fs-10-rf rounded-pill mb-5"> Learn more </button>
+                    <button class="btn-rf fs-10-rf rounded-pill mb-5"> Learn more <i class="fa-solid fa-caret-right align-middle"></i>  </button>
                 </div><div class="col-3 pt-5 pb-5 text-center card opacity-rf card-rf back-color-img-rf">
                     <h6>Standard</h6>           
-                    <h3>119</h3>
+                    <div class="position-relative">
+                        <h3 class="d-inline-block">119</h3>
+                        <span class="dollar-pos">$</span>
+                    </div>
                     <p class="fs-10-rf lh-lg color-sc-txt-rf mb-4">
                         10 design concepts <br>
                         Full copyright ownership <br>
@@ -84,11 +90,14 @@
                         Top level creatives <br>
                         No money back 
                     </p>
-                    <button class="btn-rf rounded-pill back-color-img-rf mb-5 fs-10-rf"> Learn more </button>
+                    <button class="btn-rf rounded-pill back-color-img-rf mb-5 fs-10-rf"> Learn more <i class="fa-solid fa-caret-right align-middle"></i> </button>
                 </div>
                 <div class="col-3 pt-5 pb-5 text-center card opacity-rf card-rf borders-colors-button2-rf">
                     <h6>Basic</h6>           
-                    <h3>139</h3>
+                    <div class="position-relative">
+                        <h3 class="d-inline-block">139</h3>
+                        <span class="dollar-pos">$</span>
+                    </div>
                     <p class="fs-10-rf  lh-lg color-sc-txt-rf mb-4">
                         15 design concepts <br>
                         Full copyright ownership <br>
@@ -96,7 +105,7 @@
                         Top level creatives <br>
                         No money back 
                     </p>
-                    <button class="btn-rf rounded-pill mb-5 fs-10-rf"> Learn more </button>
+                    <button class="btn-rf rounded-pill mb-5 fs-10-rf"> Learn more <i class="fa-solid fa-caret-right align-middle"></i> </button>
                 </div>
             </div>
         </div>
@@ -117,7 +126,6 @@ export default {
                 font-size: 8px;
                 padding: 5px 25px;
         }
-
 
         h6 {
             margin-bottom: 0;
@@ -169,4 +177,11 @@ export default {
         .borders-colors-button1-rf {
             border: 1px solid hsl(33deg 72% 78%);
         }
+
+        .dollar-pos {
+            position: absolute;
+            top: 0;
+        }
+
+        
 </style>

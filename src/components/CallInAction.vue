@@ -24,7 +24,7 @@
                             <input type="text" placeholder="Email" class="w-100 color-sc-txt-rf border-input ">
                         </div>
                     </div>
-                    <button class="btn-rf rounded-pill"> Submit </button>
+                    <button class="btn-rf rounded-pill"> Submit <i class="fa-solid fa-caret-right align-middle"></i></button>
                 </div>
             </div>
         </div>
