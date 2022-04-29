@@ -26,3 +26,23 @@
 .w-50px {
   width: 50px;
 }
+
+.opacity-rf {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.btn-rf {
+  background-color: white;
+  padding: 5px 10px;
+  font-size: 11px; 
+  border: 1px solid hsl(184deg 22% 59%);
+}
+
+.card-rf {
+  border-radius: 20px;
+  padding: 10px 40px;
+}
+
+.back-color-img-rf {
+  background-color: hsl(166deg 35% 93%);
+}
