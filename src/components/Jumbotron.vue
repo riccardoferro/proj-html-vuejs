@@ -18,7 +18,7 @@
             </div>
 
             <!-- Second part of the jumbotron where are the images -->
-            <div class="row pt-5 w-75 m-auto">
+            <div class="row pt-5 w-75 m-auto position-relative">
                 <div class="col-6">
                     <img src="../../src/assets/img/port-img-07.jpg"  alt="port-img" class="img-fluid">
                 </div>
@@ -122,7 +122,7 @@ export default {
 //   top: 0;
 // }
 
-.folded-corner:hover {
+.folded-corner {
               position: relative;
               width: 50%;
               padding: 1em 1.5em;
@@ -137,7 +137,7 @@ export default {
     position: absolute;
     top: 0;
     left: 0;
-    border-width: 65px 65px 65px 65px;
+    border-width: 50px 50px 50px 50px;
     border-style: solid;
     border-color: white hsl(19deg 90% 92%) hsl(19deg 90% 92%) white;
     // -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
