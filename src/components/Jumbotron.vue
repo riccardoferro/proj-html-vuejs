@@ -85,7 +85,7 @@ export default {
 
 // UTILITIES
 
-@import "./src/assets/toolsStyle.scss";
+// @import "./src/assets/toolsStyle.scss";
 
 
 
