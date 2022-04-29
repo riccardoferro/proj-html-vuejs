@@ -2,11 +2,16 @@
     <header>
         <div class="container-fluid">
             <div class="row justify-content-between">
+                <!-- logo -->
                 <img class="col-2" src="../../src/assets/img/logo-img-01.png" alt="image logo">
+
+                <!-- nav bar -->
                 <div class="buttons-rf col-auto">
+                    <!-- buttons -->
                     <button v-for="(text,index) in data" :key="index" class="btn">
                         {{text}} 
                     </button>
+                    <!-- menu -->
                      <a href="#">  
                          <img class="ps-2" src="../../src/assets/svg/svg-1.svg" alt="image logo">
                      </a>

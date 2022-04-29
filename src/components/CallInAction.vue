@@ -2,6 +2,7 @@
     <div class="callinAction">
         <div class="container-fluid m-auto mt-5 mb-5 fs-10-rf position-relative">
             <div class="row w-75 m-auto pt-3 pb-3 justify-content-between ">
+                <!-- left side -->
                 <div class="col-4">
                     <h2>
                         Get in touch and say hello
@@ -10,11 +11,14 @@
                         Lorem ipsum dolor sit amet, consectetuer socils quis adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa cum.
                     </span>
                 </div>
+                <!-- right side -->
                 <div class="col-6">
+                    <!-- text area -->
                     <div class="row pb-5">
                         <textarea type="text" placeholder="Comment" class="w-100 color-sc-txt-rf border-input pe-0 ps-0 ">
                         </textarea>
                     </div>
+                    <!-- input text -->
                     <div class="row justify-content-between pb-5">
                         <div class="col-5 pe-0 ps-0">
                             <input type="text" placeholder="Name" class="w-100 color-sc-txt-rf border-input ">
@@ -24,6 +28,7 @@
                             <input type="text" placeholder="Email" class="w-100 color-sc-txt-rf border-input ">
                         </div>
                     </div>
+                    <!-- button -->
                     <button class="btn-rf rounded-pill"> Submit <i class="fa-solid fa-caret-right align-middle"></i></button>
                 </div>
 

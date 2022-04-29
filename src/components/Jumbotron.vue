@@ -110,18 +110,6 @@ export default {
             right: 10px;
         }
 
-
-// .dog-ear {
-//   width: 0;
-//   height: 0px;
-//   border-style: solid;
-//   border-width: 40px 0 0 40px;
-//   border-color: white white white #ccc;
-//   position: absolute;
-//   right: 0;
-//   top: 0;
-// }
-
 .folded-corner {
               position: relative;
               width: 50%;
