@@ -42,9 +42,9 @@ export default {
                 align-self: center;
             }
             button {
-              margin: 0 15px;
-              font-size: 12px;
-              font-weight: 400;
+              margin: 0 5px;
+              font-size: 10px;
+              font-weight: 500;
 
               &:hover {
                   border-bottom: 2px solid hsl(16deg 64% 73%);
