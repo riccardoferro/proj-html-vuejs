@@ -42,10 +42,6 @@
 
         </div>
 
-    <a href="#" class="arrow-up-rf pos-arrow-2-rf"> </a>
-    <a href="#" class="arrow-up-rf pos-arrow-1-rf"> </a>
-
-
     </div>
 </template>
 
@@ -91,24 +87,6 @@ export default {
 // UTILITIES
 
 @import "./src/assets/toolsStyle.scss";
-
-        .pos-arrow-rf {
-            position: absolute;
-            top: 250px;
-            right: 10px;
-        }
-
-        .pos-arrow-2-rf {
-            position: absolute;
-            bottom: 200px;
-            right: 10px;
-        }
-
-        .pos-arrow-1-rf {
-            position: absolute;
-            top: 700px;
-            right: 10px;
-        }
 
 .folded-corner {
               position: relative;

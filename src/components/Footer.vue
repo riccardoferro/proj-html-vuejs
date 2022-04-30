@@ -20,7 +20,6 @@
                   <i class="fa-brands fa-pinterest-p rounded-circle back-color-pint"></i>
               </div>
             </div>
-            <a href="#" class="arrow-up pos-arrow"> </a>
       </div>
 
     </footer>
@@ -65,9 +64,5 @@ export default {
         font-size: 9px;
     }
 
-    .pos-arrow {
-      position: absolute;
-      bottom: 20px;
-      right: 10px;
-    }
+   
 </style>

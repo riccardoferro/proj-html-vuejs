@@ -49,7 +49,6 @@
               <i class="fa-brands fa-twitter rounded-circle back-color-twitt"></i>
               <i class="fa-brands fa-pinterest-p rounded-circle back-color-pint"></i>
             </div>
-        <a href="#" class="arrow-up-rf pos-arrow-2-rf"> </a>
 
         </div>
          <!-- second part of the main -->
@@ -66,7 +65,6 @@
                 <div class="col-1 back-img-r2 h-300px"></div>
             </div>
             <img src="../../src/assets/img/main-home-video-button-img-01.png" alt="" class="position-absolute top-50 start-50 translate-middle w-50px ">
-        <a href="#" class="arrow-up-rf pos-arrow-rf"> </a>
         
         </div>
 
@@ -118,7 +116,6 @@
                             <button class="btn-rf rounded-pill mb-5 fs-10-rf"> Learn more <i class="fa-solid fa-caret-right align-middle"></i> </button>
                         </div>
                 </div>
-        <a href="#" class="arrow-up-rf pos-arrow-rf"> </a>
         <div class="pos-icons-rf">
             <img src="../../src/assets/svg/svg-2.svg" alt="icon" class="icon1-rf">
             <img src="../../src/assets/svg/svg-4.svg" alt="icon" class="icon2-rf d-block" >
@@ -198,17 +195,6 @@ export default {
             top: 0;
         }
 
-        .pos-arrow-rf {
-        position: absolute;
-        top: 250px;
-        right: 10px;
-        }
-
-        .pos-arrow-2-rf {
-        position: absolute;
-        top: 250px;
-        right: 10px;
-        }
 
         .icon1-rf {
             background-color: hsl(347deg 86% 55%);

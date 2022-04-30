@@ -1,12 +1,14 @@
 <template>
-    <div id="app">
+    <div id="app position-absolute">
       <!-- Call Components -->
         <Header :data="dataHeader"/>
         <Jumbotron/>
         <Main/>
         <CallInAction/>
         <Footer/>
-
+        <!-- Arrow that if click go to the header -->
+        <a href="#" class="arrow-up-rf"> </a>
+        
     </div>
 </template>
 
@@ -53,6 +55,8 @@ export default {
 
 // import bootstrap
 @import "~bootstrap/scss/bootstrap";
+
+@import "./src/assets/toolsStyle.scss";
 
 // import general Settings
 @import "./src/assets/generalStyle.scss";
