@@ -1,14 +1,13 @@
 <template>
-    <div class="jumbotron container-fluid position-relative ">
-        <div class="container w-75 m-auto pt-5">
-
+    <div class="jumbotron">
+        <div class="container-fluid p-0">
             <!-- First part of the jumbotron whre is the Title and Paragraph -->
 
-            <div class="row pt-5 pb-5 justify-content-between">
-                <div class="col-6">
+            <div class="row w-75 m-auto justify-content-between pb-5">
+                <div class="col-6 pe-5 ">
                     <h2> We are Bryson, New York-based art & design studio</h2>
                 </div>
-                <div class="col-6 color-sc-txt-rf fs-10-rf">
+                <div class="col-6 color-sc-txt-rf fs-10-rf ps-4 d-flex align-items-center">
                     <p>
                         Here at Bryson it only takes a smidgen of imagination and we're already prepared ourselves for
                         future challenges. Take a peek and see if you recognize the trademark ingredients of our work.
@@ -16,9 +15,10 @@
                 </div>
 
             </div>
-
+        </div>
+         <div class="container-fluid p-0">
             <!-- Second part of the jumbotron where are the images -->
-            <div class="row pt-5 w-75 m-auto position-relative">
+            <div class="row w-50 m-auto position-relative top-70px">
                 <div class="col-6">
                     <img src="../../src/assets/img/port-img-07.jpg"  alt="port-img" class="img-fluid">
                 </div>
@@ -41,7 +41,6 @@
             </div>
 
         </div>
-
     </div>
 </template>
 
@@ -61,15 +60,14 @@ export default {
 
 
 
-.row:first-child {
+.container-fluid:first-child {
     background-image: url('../../src/assets/img/h2-background-img-02.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    div:last-child {
-        padding-top: 50px;
-        padding-left: 100px;
-        padding-right: 40px;
-    }
+    background-size: contain;
+    padding: 110px 50px;
+}
+
+.top-70px {
+    top: -70px;
 }
 
 .row:last-child {
